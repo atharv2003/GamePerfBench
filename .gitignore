@@ -36,3 +36,10 @@ output/
 # OS files
 .DS_Store
 Thumbs.db
+
+# AI/LLM
+.claude/
+
+# Temporary Test Output
+pytest_full.txt
+pytest_output.txt
