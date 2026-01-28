@@ -39,6 +39,8 @@ Thumbs.db
 
 # AI/LLM
 .claude/
+CLAUDE.md
+GamePerfBench_Development_Plan.md
 
 # Temporary Test Output
 pytest_full.txt
