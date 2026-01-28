@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m pytest tests/unit/test_models.py tests/unit/test_simulated_capture.py -v)",
+      "Bash(python -m pip install:*)",
+      "Bash(python -m black:*)",
+      "Bash(python -m flake8:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

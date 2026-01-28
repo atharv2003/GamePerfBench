@@ -1,0 +1,15 @@
+# Low Graphics Preset
+# Optimized for maximum performance on low-end hardware.
+
+preset_name: low
+description: "Low quality settings for maximum performance"
+
+# Higher target FPS expected at low settings
+target_fps: 120.0
+variance: 0.04
+
+# Shorter benchmark duration for quick tests
+duration_seconds: 10
+
+# No stutter injection by default
+stutter_injection: null

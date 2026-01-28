@@ -1,0 +1,26 @@
+# GamePerfBench Global Configuration
+# These are the default settings used when not overridden by presets or CLI args.
+
+# Output settings
+output_root: "output"
+
+# Default benchmark parameters
+duration_seconds: 10
+target_fps: 60.0
+variance: 0.05
+seed: 123
+
+# Trial settings
+num_trials: 3
+
+# Variance check thresholds
+variance_check:
+  max_cv_avg_fps: 0.05
+  max_cv_one_percent_low: 0.10
+  min_runs: 2
+
+# Stutter injection defaults (empty = no stutters)
+stutter_injection: null
+
+# Capture settings
+simulated: true  # Use simulated capture by default

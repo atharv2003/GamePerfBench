@@ -1,0 +1,11 @@
+# High Graphics Preset
+# High quality settings for capable hardware.
+
+preset_name: high
+description: "High quality settings for modern hardware"
+
+target_fps: 60.0
+variance: 0.05
+duration_seconds: 10
+
+stutter_injection: null

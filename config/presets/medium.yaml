@@ -1,0 +1,11 @@
+# Medium Graphics Preset
+# Balanced quality and performance.
+
+preset_name: medium
+description: "Balanced quality and performance settings"
+
+target_fps: 90.0
+variance: 0.05
+duration_seconds: 10
+
+stutter_injection: null

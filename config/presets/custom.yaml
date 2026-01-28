@@ -1,0 +1,13 @@
+# Custom Graphics Preset
+# Placeholder for user-defined settings.
+# Copy this file and modify as needed.
+
+preset_name: custom
+description: "Custom user-defined settings"
+
+# Override any settings here
+target_fps: 60.0
+variance: 0.05
+duration_seconds: 10
+
+stutter_injection: null

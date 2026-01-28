@@ -1,0 +1,13 @@
+# Ultra Graphics Preset
+# Maximum quality settings, lower expected FPS.
+
+preset_name: ultra
+description: "Maximum quality settings for high-end hardware"
+
+target_fps: 45.0
+variance: 0.06
+duration_seconds: 10
+
+# Ultra settings may cause occasional stutters
+stutter_injection:
+  micro: 2

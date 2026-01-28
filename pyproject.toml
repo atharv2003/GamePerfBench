@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gameperfbench"
+version = "0.1.0"
+description = "PC game benchmarking harness"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]

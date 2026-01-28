@@ -1,0 +1,43 @@
+# Game Profiles
+# Game-specific settings that override global defaults.
+
+games:
+  # Test game profile for development and testing
+  test:
+    display_name: "Test Game"
+    process_name: "test.exe"
+    notes: "Simulated test game for development"
+    target_fps: 60.0
+    variance: 0.05
+
+  # Example AAA game profiles
+  cyberpunk2077:
+    display_name: "Cyberpunk 2077"
+    process_name: "Cyberpunk2077.exe"
+    notes: "Demanding open-world RPG"
+    target_fps: 60.0
+    variance: 0.08
+    stutter_injection:
+      micro: 3
+      minor: 1
+
+  rdr2:
+    display_name: "Red Dead Redemption 2"
+    process_name: "RDR2.exe"
+    notes: "Open-world Western action game"
+    target_fps: 60.0
+    variance: 0.07
+
+  eldenring:
+    display_name: "Elden Ring"
+    process_name: "eldenring.exe"
+    notes: "Action RPG with frame pacing quirks"
+    target_fps: 60.0
+    variance: 0.06
+
+  csgo:
+    display_name: "Counter-Strike 2"
+    process_name: "cs2.exe"
+    notes: "Competitive FPS requiring high framerates"
+    target_fps: 300.0
+    variance: 0.03
